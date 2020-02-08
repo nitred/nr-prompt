@@ -1,0 +1,4 @@
+prompt:
+  - id: name
+    str: What is your name?
+    type: text

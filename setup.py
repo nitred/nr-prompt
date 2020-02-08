@@ -32,7 +32,10 @@ setup(
     include_package_data=True,
     install_requires=install_requires,
     setup_requires=["pytest-runner"],
-    entry_points={},
+    entry_points="""
+        [console_scripts]
+            nr-prompt=nr_prompt.parser.parser:parse
+    """,
     tests_require=test_requires,
     packages=find_packages(),
     zip_safe=False,

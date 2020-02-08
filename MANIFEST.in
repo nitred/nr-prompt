@@ -1,5 +1,7 @@
 include README.md
 recursive-include nr_prompt *.html
 recursive-include nr_prompt *.css
+recursive-include nr_prompt *.yaml
+recursive-include nr_prompt *.json
 global-exclude __pycache__
 global-exclude *.py[co]
