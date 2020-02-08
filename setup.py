@@ -34,7 +34,7 @@ setup(
     setup_requires=["pytest-runner"],
     entry_points="""
         [console_scripts]
-            nr-prompt=nr_prompt.parser.parser:parse
+            nr-prompt=nr_prompt.main:run
     """,
     tests_require=test_requires,
     packages=find_packages(),
